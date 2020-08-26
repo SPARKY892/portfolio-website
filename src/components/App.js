@@ -5,7 +5,7 @@ import Home from "./Home";
 class App extends React.Component {
   state = { selectedPage: "Home", select: "homeSelect" };
 
-  onPageSelect = page => {
+  onPageSelect = (page) => {
     this.setState({ selectedPage: page });
     if (page === "Home") {
       this.setState({ select: "homeSelect" });
@@ -23,6 +23,8 @@ class App extends React.Component {
     return (
       <div>
         <Header onPageSelect={this.onPageSelect} select={this.state.select} />
+        <Home />
+        <h3>Temp Footer</h3>
       </div>
     );
   }
