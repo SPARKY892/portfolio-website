@@ -1,4 +1,10 @@
 html,
 body {
   height: 100%;
+  background-color: #eee;
+}
+
+.pageContainer {
+  padding-left: 10%;
+  padding-right: 10%;
 }

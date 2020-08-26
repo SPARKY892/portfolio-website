@@ -21,10 +21,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="pageContainer">
         <Header onPageSelect={this.onPageSelect} select={this.state.select} />
         <Home />
-        <h3>Temp Footer</h3>
+        <h3 style={{ backgroundColor: "white" }}>Temp Footer</h3>
       </div>
     );
   }

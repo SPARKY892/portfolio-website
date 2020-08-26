@@ -1,6 +1,6 @@
 .homePage {
   background-color: #eee;
-  height: 95%;
+  height: 100%;
 }
 
 .homeIntro {
@@ -13,8 +13,4 @@
   text-align: center;
   margin-left: 40px;
   font-size: 3em;
-}
-
-.homeClosing {
-  text-align: center;
 }
