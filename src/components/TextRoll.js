@@ -3,17 +3,16 @@ import './TextRoll.scss';
 
 const TextRoll = () => {
     return (
-        <div className='textContent'>
-            <div className='visibleText'>
-                <p>I want to be</p>
-                <ul className='textRollListWrapper'>
-                    <li className='textRollList'>a Painter</li>
-                    <li className='textRollList'>an Athlete</li>
-                    <li className='textRollList'>a Lawyer</li>
-                    <li className='textRollList'>a Web Developer</li>
-                </ul>
-            </div>
-        </div>
+        <section className='wrapper'>
+                <h2 className='sentence'>I want to be
+                    <div className='slidingVertical'>
+                        <span>a Painter</span>
+                        <span>an Athlete</span>
+                        <span>a Lawyer</span>
+                        <span>a Web Developer</span>
+                    </div>
+                </h2>
+        </section>
     );
   };
   
