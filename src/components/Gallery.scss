@@ -1,0 +1,48 @@
+.galleryPage {
+    padding: 0 10%;
+  }
+  
+  .galleryHeader {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .galleryGrid {
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    grid-template-columns: 30% 30% 30%;
+  }
+  
+  .galleryItem:nth-child(1) {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .galleryItem:nth-child(2) {
+    background-color: cyan;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .galleryItem:nth-child(3) {
+    background-color: pink;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  
+  .galleryItem:nth-child(4) {
+    background-color: orange;
+  }
+  
+  .galleryItem:nth-child(5) {
+    background-color: green;
+  }
+  
+  .galleryItem:nth-child(6) {
+    background-color: yellow;
+  }
+  
+  
+  
