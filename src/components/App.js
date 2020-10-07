@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Home from "./Home";
+import Route from "./Route";
+import Gallery from './Gallery';
 
 class App extends React.Component {
   state = { selectedPage: "Home", select: "homeSelect" };
@@ -23,8 +25,12 @@ class App extends React.Component {
     return (
       <div className="pageContainer">
         <Header onPageSelect={this.onPageSelect} select={this.state.select} />
-        <Home />
-        <h3 style={{ backgroundColor: "white" }}>Temp Footer</h3>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/gallery">
+          <Gallery />
+        </Route>
       </div>
     );
   }
