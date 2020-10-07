@@ -1,5 +1,6 @@
 import "./Header.scss";
 import React from "react";
+import Link from './Link';
 
 const Header = ({ onPageSelect, select }) => {
   return (
@@ -10,16 +11,16 @@ const Header = ({ onPageSelect, select }) => {
             onClick={() => onPageSelect("Home")}
             className={`home navList ${select}`}
           >
-            <button className="button">Home</button>
+            <Link href="/" className="item">Home</Link>
           </li>
           <li onClick={() => onPageSelect("About")} className="about navList">
-            <button className="button">About</button>
+            <Link href="/about" className="item">About</Link>
           </li>
           <li onClick={() => onPageSelect("Gallery")} className="gallery navList">
-            <button className="button">Gallery</button>
+            <Link href="/gallery" className="item">Gallery</Link>
           </li>
           <li onClick={() => onPageSelect("CV")} className="cv navList">
-            <button className="button">CV</button>
+            <Link href="/CV" className="item">CV</Link>
           </li>
           <hr className="slidingHR" />
         </ul>
