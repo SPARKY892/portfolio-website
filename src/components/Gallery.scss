@@ -1,5 +1,5 @@
 .galleryPage {
-  padding: 0 10%;
+  padding: 0 10% 10%;
 }
 
 .galleryHeader {
@@ -11,20 +11,24 @@
 .galleryGrid {
   display: grid;
   grid-column-gap: 5%;
-  grid-row-gap: 10%;
-  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 5%;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto;
+  justify-content: space-between;
 }
 
 .galleryItem {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  justify-self: center;
 }
 
 .galleryItemContent {
   position: relative;
   width: 100%;
+  justify-self: center;
 }
 
 .galleryItemHeader {

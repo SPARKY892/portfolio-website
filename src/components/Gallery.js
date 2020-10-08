@@ -10,7 +10,16 @@ const Gallery = () => {
       </div>
       <div className="galleryGrid">
         <div className="galleryItem">
-          <div className="galleryItemHeader">Pomodoro Timer</div>
+          <div className="galleryItemHeader">Youtube Search</div>
+          <div className="galleryItemContent">
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
+          </div>
+        </div>
+        <div className="galleryItem">
+          <div className="galleryItemHeader">Image Search</div>
           <div className="galleryItemContent">
             <img src="images/pomodoro.jpg" alt="not found" width="100%" />
             <div className="galleryItemOverlay">
@@ -22,42 +31,63 @@ const Gallery = () => {
           <div className="galleryItemHeader">Pomodoro Timer</div>
           <div className="galleryItemContent">
             <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Notes</div>
           <div className="galleryItemContent">
-            <div className="galleryItemHeader">Pomodoro Timer</div>
             <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Widgets</div>
           <div className="galleryItemContent">
-            <span>item 4</span>
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Todo List</div>
           <div className="galleryItemContent">
-            <span>item 5</span>
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Basic Weather</div>
           <div className="galleryItemContent">
-            <span>item 6</span>
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Song List</div>
           <div className="galleryItemContent">
-            <span>item 7</span>
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
         <div className="galleryItem">
+          <div className="galleryItemHeader">Puttered</div>
           <div className="galleryItemContent">
-            <span>item 8</span>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemContent">
-            <span>item 9</span>
+            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
+            <div className="galleryItemOverlay">
+              <div className="overlayText">Overlay Text</div>
+            </div>
           </div>
         </div>
       </div>
