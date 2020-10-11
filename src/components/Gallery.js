@@ -1,7 +1,18 @@
 import "./Gallery.scss";
 import React from "react";
+import GalleryItem from "./GalleryItem";
 
-const Gallery = () => {
+const Gallery = ({projects}) => {
+  const renderedItems = projects.map(project => {
+    return (
+      <GalleryItem
+        title={project.title}
+        image={project.image}
+        overlayText={project.overlayText}
+      />
+    );
+  });
+  
   return (
     <div className="galleryPage">
       <div className="galleryHeader">
@@ -9,87 +20,7 @@ const Gallery = () => {
         <h3>A collection of some of my work</h3>
       </div>
       <div className="galleryGrid">
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Youtube Search</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Image Search</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Pomodoro Timer</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Notes</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Widgets</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Todo List</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Basic Weather</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Song List</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
-        <div className="galleryItem">
-          <div className="galleryItemHeader">Puttered</div>
-          <div className="galleryItemContent">
-            <img src="images/pomodoro.jpg" alt="not found" width="100%" />
-            <div className="galleryItemOverlay">
-              <div className="overlayText">Overlay Text</div>
-            </div>
-          </div>
-        </div>
+        <React.Fragment>{renderedItems}</React.Fragment> 
       </div>
     </div>
   );

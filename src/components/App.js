@@ -3,9 +3,13 @@ import Header from "./Header";
 import Home from "./Home";
 import Route from "./Route";
 import Gallery from './Gallery';
+import { projects } from './projectdata';
 
 class App extends React.Component {
-  state = { selectedPage: "Home", select: "homeSelect" };
+  state = { selectedPage: "Home", 
+            select: "homeSelect", 
+            projects: projects 
+          };
 
   onPageSelect = (page) => {
     this.setState({ selectedPage: page });
@@ -29,7 +33,7 @@ class App extends React.Component {
           <Home />
         </Route>
         <Route path="/gallery">
-          <Gallery />
+          <Gallery projects={this.state.projects} />
         </Route>
       </div>
     );
