@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 const Modal = props => {
 
     return ReactDOM.createPortal(
-        <div>
+        <div className={props.modalShown ? 'modal' : 'modal hidden'}>
             <div onClick={(e) => e.stopPropagation()}>
                 <div>Hello Modal {props.title}</div>
             </div>   

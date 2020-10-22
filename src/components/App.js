@@ -8,7 +8,8 @@ import { projects } from './projectdata';
 class App extends React.Component {
   state = { selectedPage: "Home", 
             select: "homeSelect", 
-            projects: projects 
+            projects: projects,
+            modalShown: false
           };
 
   onPageSelect = (page) => {
@@ -33,7 +34,7 @@ class App extends React.Component {
           <Home />
         </Route>
         <Route path="/gallery">
-          <Gallery projects={this.state.projects} />
+          <Gallery projects={this.state.projects} modalShown={this.state.modalShown} />
         </Route>
       </div>
     );

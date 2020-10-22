@@ -2,13 +2,14 @@ import "./Gallery.scss";
 import React from "react";
 import GalleryItem from "./GalleryItem";
 
-const Gallery = ({projects}) => {
+const Gallery = ({projects, modalShown}) => {
   const renderedItems = projects.map(project => {
     return (
       <GalleryItem
         title={project.title}
         image={project.image}
         overlayText={project.overlayText}
+        modalShown={modalShown}
       />
     );
   });
