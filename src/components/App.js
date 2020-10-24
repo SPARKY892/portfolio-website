@@ -9,7 +9,6 @@ class App extends React.Component {
   state = { selectedPage: "Home", 
             select: "homeSelect", 
             projects: projects,
-            modalShown: false
           };
 
   onPageSelect = (page) => {
