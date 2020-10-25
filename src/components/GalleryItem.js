@@ -7,7 +7,7 @@ const GalleryItem = ({title, image, overlayText}) => {
   return (
     <div className="galleryItem">
       <div className="galleryItemHeader">{title}</div>
-      <div onClick={() => (setToggleModal(!modalShown)) } className="galleryItemContent">
+      <div onClick={() => (setToggleModal(!toggleModal)) } className="galleryItemContent">
         <img src={image} alt="not found" width="100%" />
         <div className="galleryItemOverlay">
           <div className="overlayText">{overlayText}</div>
