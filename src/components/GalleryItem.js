@@ -1,17 +1,13 @@
-import React, { useState } from "react";
-import Modal from "./Modal";
+import React from "react";
 
-const GalleryItem = ({title, image, overlayText}) => {  
-  const [toggleModal, setToggleModal] = useState(false);
-  
+const GalleryItem = ({id, title, image, overlayText, onClick}) => {    
   return (
-    <div className="galleryItem">
+    <div className="galleryItem" onClick={onClick}>
       <div className="galleryItemHeader">{title}</div>
-      <div onClick={() => (setToggleModal(!toggleModal)) } className="galleryItemContent">
+      <div className="galleryItemContent">
         <img src={image} alt="not found" width="100%" />
         <div className="galleryItemOverlay">
           <div className="overlayText">{overlayText}</div>
-          <Modal  title={title} modalShown={toggleModal}/>
         </div>
       </div>
     </div>

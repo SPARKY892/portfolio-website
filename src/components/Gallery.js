@@ -1,14 +1,20 @@
 import "./Gallery.scss";
-import React from "react";
+import React, {useState} from "react";
 import GalleryItem from "./GalleryItem";
+import Modal from './Modal';
 
 const Gallery = ({projects}) => {
-  const renderedItems = projects.map(project => {
+  const [currentItem, setCurrentItem] = useState(0);
+  const [toggleModal, setToggleModal] = useState(false);
+
+  const renderedItems = projects.map((project, index) => {
     return (
       <GalleryItem
+        id={index}
         title={project.title}
         image={project.image}
         overlayText={project.overlayText}
+        onClick={() => {setCurrentItem(index); setToggleModal(!toggleModal)}}
       />
     );
   });
@@ -22,6 +28,7 @@ const Gallery = ({projects}) => {
       <div className="galleryGrid">
         <React.Fragment>{renderedItems}</React.Fragment> 
       </div>
+      <Modal  title={projects[currentItem].title} modalShown={toggleModal}/>
     </div>
   );
 };
