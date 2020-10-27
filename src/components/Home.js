@@ -5,11 +5,10 @@ import TextRoll from './TextRoll';
 const Home = () => {
   return (
     <div className="homePage">
-      <h1 className="homeIntro">Header 1</h1>
+      <h1 className="homeIntro">Hi, I'm Mark.</h1>
       <TextRoll />
-      <div className="ui container center aligned">
-        <h3>Header 3</h3>
-        <i className="big orange icon arrow right" />
+      <div className="homeEnding">
+        <h3>Let me show you some of my work.</h3>
       </div>
     </div>
   );
