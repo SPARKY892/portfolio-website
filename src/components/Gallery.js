@@ -28,7 +28,7 @@ const Gallery = ({projects}) => {
       <div className="galleryGrid">
         <React.Fragment>{renderedItems}</React.Fragment> 
       </div>
-      <Modal  title={projects[currentItem].title} modalShown={toggleModal}/>
+      <Modal  title={projects[currentItem].title} onClick={() => setToggleModal(!toggleModal)} modalShown={toggleModal}/>
     </div>
   );
 };
