@@ -7,7 +7,12 @@ const Modal = props => {
     return ReactDOM.createPortal(
         <div className={props.modalShown ? 'modal' : 'modal hidden'} onClick={props.onClick}>
             <div className='modalContent' onClick={(e) => e.stopPropagation()}>
-                <div>Hello Modal {props.title}</div>
+                <div className='modalHeader'>
+                    <div className='modalTitle'>{props.title}</div>
+                    <i className='fas fa-times modalClose' onClick={props.onClick}></i>
+                </div>
+                <div className='contentImage'>Image to go here</div>
+                <div className='contentDescription'>{props.description}</div>
             </div>   
         </div>
         , document.querySelector('#modal')
