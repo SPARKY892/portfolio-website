@@ -3,7 +3,7 @@ export const projects = [
         title: "Video Streaming",
         overlayText: "A video streaming app in React with Google authentication support.",
         image: "images/pomodoro.jpg",
-        description: "A video streaming app built with React. The app supports Google Authentication to identify users, allowing them to create, edit and delete their own streams."
+        description: "A video streaming app built with React. The app supports Google Authentication to identify users, allowing them to create, edit and delete their own streams. Streams can be set up in OBS Studio to connect via RTMP to share on the app. Users that are not logged in via Google can still view the list of available streams that have been created but do not have permission to edit or delete them."
     },
     {
         title: "Youtube Search",
@@ -49,7 +49,7 @@ export const projects = [
     },
     {
         title: "Song List",
-        overlayText: "A basic React app to demonstrate",
+        overlayText: "A basic React app to demonstrate how actions and reducers work.",
         image: "images/pomodoro.jpg",
         description: ""
     }
