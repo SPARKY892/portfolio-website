@@ -3,13 +3,13 @@ export const projects = [
         title: "Video Streaming",
         overlayText: "A video streaming app in React with Google authentication support.",
         image: "images/pomodoro.jpg",
-        description: ""
+        description: "A video streaming app built with React. The app supports Google Authentication to identify users, allowing them to create, edit and delete their own streams."
     },
     {
         title: "Youtube Search",
         overlayText: "A Youtube search app.",
         image: "images/pomodoro.jpg",
-        description: "An single page application built with React that makes use of the Youtube API. The app allows users to enter a search term that will return a list of videos and allow them to select one to watch."
+        description: "A single page application built with React that makes use of the Youtube API. The app allows users to enter a search term that will return a list of videos and allow them to select one to watch."
     },
     {
         title: "Image Search",
@@ -31,7 +31,7 @@ export const projects = [
     },
     {
         title: "Widgets",
-        overlayText: "Overlay text for project 6",
+        overlayText: "A small collection of basic apps including.",
         image: "images/pomodoro.jpg",
         description: ""
     },
@@ -43,13 +43,13 @@ export const projects = [
     },
     {
         title: "Basic Weather",
-        overlayText: "Overlay text for project 8",
+        overlayText: "A simple weather app.",
         image: "images/pomodoro.jpg",
         description: ""
     },
     {
         title: "Song List",
-        overlayText: "Overlay text for project 9",
+        overlayText: "A basic React app to demonstrate",
         image: "images/pomodoro.jpg",
         description: ""
     }
