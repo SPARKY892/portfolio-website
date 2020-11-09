@@ -1,6 +1,5 @@
 import "./Home.scss";
 import React from "react";
-import TextRoll from './TextRoll';
 
 const Home = () => {
   return (
