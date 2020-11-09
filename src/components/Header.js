@@ -13,9 +13,6 @@ const Header = ({ onPageSelect, select }) => {
           >
             <Link href="/" className="item">Home</Link>
           </li>
-          <li onClick={() => onPageSelect("About")} className="about navList">
-            <Link href="/about" className="item">About</Link>
-          </li>
           <li onClick={() => onPageSelect("Gallery")} className="gallery navList">
             <Link href="/gallery" className="item">Gallery</Link>
           </li>

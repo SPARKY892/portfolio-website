@@ -24,7 +24,7 @@
 
 .item {
   display: inline-block;
-  width: 25%;
+  width: 33%;
   padding: 0.75rem 0;
   margin: 0;
   text-decoration: none;
@@ -47,18 +47,13 @@
   background: rgb(100, 255, 255);
 }
 
-.about:hover ~ hr {
-  margin-left: 25%;
-  background: rgb(100, 255, 255);
-}
-
 .gallery:hover ~ hr {
-  margin-left: 50%;
+  margin-left: 33%;
   background: rgb(100, 255, 255);
 }
 
 .cv:hover ~ hr {
-  margin-left: 75%;
+  margin-left: 66%;
   background: rgb(100, 255, 255);
 }
 
@@ -66,21 +61,17 @@
   margin-left: 0%;
 }
 
-.aboutSelect ~ hr {
-  margin-left: 25%;
-}
-
 .gallerySelect ~ hr {
-  margin-left: 50%;
+  margin-left: 33%;
 }
 
 .cvSelect ~ hr {
-  margin-left: 75%;
+  margin-left: 66%;
 }
 
 .slidingHR {
   height: 0.25rem;
-  width: 25%;
+  width: 33%;
   margin: 0;
   background: rgb(71, 203, 255);
   border: none;
