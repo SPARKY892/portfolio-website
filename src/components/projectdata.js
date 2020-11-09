@@ -3,7 +3,7 @@ export const projects = [
         title: "Video Streaming",
         overlayText: "A video streaming app in React with Google authentication support.",
         image: "images/pomodoro.jpg",
-        description: "A video streaming app built with React. The app supports Google Authentication to identify users, allowing them to create, edit and delete their own streams. Streams can be set up in OBS Studio to connect via RTMP to share on the app. Users that are not logged in via Google can still view the list of available streams that have been created but do not have permission to edit or delete them."
+        description: "A video streaming app built with React. \n\nThe app supports Google Authentication to identify users, allowing them to create, edit and delete their own streams. Streams can be set up in OBS Studio to connect via RTMP to share on the app. Users that are not logged in via Google can still view the list of available streams that have been created but do not have permission to edit or delete them."
     },
     {
         title: "Youtube Search",
@@ -39,7 +39,7 @@ export const projects = [
         title: "Puttered",
         overlayText: "A web based golf game built using the Phaser framework",
         image: "images/pomodoro.jpg",
-        description: "Puttered is aweb based golf game built using the Phaser framework. The game was developed as part of a mobile web development module at university. The game features multiple levels with online leaderboards to record high scores between users."
+        description: "Puttered is a web based golf game built using the Phaser framework. The game was developed as part of a mobile web development module at university. The game features multiple levels with online leaderboards to record high scores between users."
     },
     {
         title: "Basic Weather",
