@@ -3,6 +3,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Route from "./Route";
 import Gallery from './Gallery';
+import CV from './CV';
 import { projects } from './projectdata';
 
 class App extends React.Component {
@@ -34,6 +35,9 @@ class App extends React.Component {
         </Route>
         <Route path="/gallery">
           <Gallery projects={this.state.projects} modalShown={this.state.modalShown} />
+        </Route>
+        <Route path="/CV">
+          <CV />
         </Route>
       </div>
     );
