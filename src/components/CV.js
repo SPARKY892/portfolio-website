@@ -3,9 +3,13 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="resume">
-      <i className="far fa-file-pdf"></i>
-      <i className="far fa-file-word"></i>
+    <div className="resumeContainer">
+      <a className="resumeIcon" href="/resume/Mark_Smellie_CV.pdf" download>
+        <i className="far fa-file-pdf"></i>
+      </a>
+      <a className="resumeIcon" href="/resume/Mark_Smellie_CV.docx" download>
+        <i className="far fa-file-word"></i>
+      </a>
     </div>
   );
 };
