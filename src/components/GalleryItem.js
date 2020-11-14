@@ -1,6 +1,6 @@
 import React from "react";
 
-const GalleryItem = ({id, title, image, overlayText, onClick}) => {    
+const GalleryItem = ({title, image, overlayText, onClick}) => {    
   return (
     <div className="galleryItem" onClick={onClick}>
       <div className="galleryItemHeader">{title}</div>
