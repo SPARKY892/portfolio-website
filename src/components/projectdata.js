@@ -8,13 +8,13 @@ export const projects = [
     {
         title: "Youtube Search",
         overlayText: "A Youtube search app.",
-        image: "images/pomodoro.jpg",
+        image: "images/youtube.jpg",
         description: "A single page application built with React that makes use of the Youtube API. The app allows users to enter a search term that will return a list of videos and allow them to select one to watch."
     },
     {
         title: "Image Search",
         overlayText: "An image search app using Unsplash.",
-        image: "images/pomodoro.jpg",
+        image: "images/imageSearch.jpg",
         description: "An app built with React that makes use of the Unsplash API to perform image searches. The search query is updated as the user types dynamically sizing results into a grid."
     },
     {
@@ -26,7 +26,7 @@ export const projects = [
     {
         title: "Todo List",
         overlayText: "A todo list in React.",
-        image: "images/pomodoro.jpg",
+        image: "images/todo.jpg",
         description: "A basic todo list built with React. The app allows users to add items to the list, mark them as complete or remove them from the list."
     },
     {
@@ -38,7 +38,7 @@ export const projects = [
     {
         title: "Puttered",
         overlayText: "A web based golf game built using the Phaser framework",
-        image: "images/pomodoro.jpg",
+        image: "images/puttered.jpg",
         description: "Puttered is a web based golf game built using the Phaser framework. The game was developed as part of a mobile web development module at university. The game features multiple levels with online leaderboards to record high scores between users."
     },
     {
