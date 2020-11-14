@@ -1,17 +1,30 @@
+.resumeText {
+    margin-top: 10%;
+    text-align: center;
+}
+
 .resumeContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+.iconContainer {
+    margin-top: 10%;
+}
+
 .resumeIcon {
     color: inherit;
     font-size: 150px;
-    margin-top: 20%;
 }
 
 .resumeIcon:hover {
     color: #008FF5;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.downloadText {
+    font-size: 30px;
+    text-align: center;
 }
