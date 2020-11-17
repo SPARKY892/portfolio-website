@@ -42,15 +42,15 @@ export const projects = [
         description: "Puttered is a web based golf game built using the Phaser framework. The game was developed as part of a mobile web development module at university. The game features multiple levels with online leaderboards to record high scores between users."
     },
     {
-        title: "Basic Weather",
-        overlayText: "A simple weather app.",
-        image: "images/pomodoro.jpg",
-        description: "A basic React weather app that uses the user location to determine what the weather is likely to be for the user."
+        title: "Basic Season Checker",
+        overlayText: "A simple season checking app.",
+        image: "images/season1.jpg",
+        description: "A basic React season checking app that uses the user location to determine what season it is likely to be for the user."
     },
     {
         title: "Song List",
         overlayText: "A basic React app to demonstrate how actions and reducers work.",
-        image: "images/pomodoro.jpg",
+        image: "images/song.jpg",
         description: "A basic React app built to demonstrate actions and reducers. The app allows users to select a song from the list to see additional details about the selected song."
     }
   ];
