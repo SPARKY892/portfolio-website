@@ -32,7 +32,7 @@ export const projects = [
     {
         title: "Widgets",
         overlayText: "A small collection of basic apps including.",
-        image: "images/pomodoro.jpg",
+        image: "images/widgets1.jpg",
         description: ""
     },
     {
