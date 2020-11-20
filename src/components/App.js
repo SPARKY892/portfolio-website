@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import Home from "./Home";
 import Route from "./Route";
 import Gallery from './Gallery';
@@ -39,6 +40,7 @@ class App extends React.Component {
         <Route path="/CV">
           <CV />
         </Route>
+        <Footer />
       </div>
     );
   }
