@@ -23,12 +23,17 @@
   overflow: hidden;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   justify-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .galleryItemContent {
   position: relative;
   width: 100%;
+  display: flex;
   justify-self: center;
+  align-items: center;
+  flex: 1;
 }
 
 .galleryItemHeader {
