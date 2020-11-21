@@ -4,7 +4,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <h3>Footer Text</h3>
+      <a className="footerIcon" href="https://github.com/SPARKY892" target="_blank">
+        <i className="fab fa-github"></i>
+      </a>
     </div>
   );
 };
