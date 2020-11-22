@@ -4,8 +4,7 @@
     font-size: 50px;
     display: flex;
     justify-content: flex-end;
-    position: absolute;
-    bottom: 0;
+    flex-shrink: 0;
 }
 
 .footerIcon {

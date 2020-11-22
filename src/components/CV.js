@@ -3,9 +3,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="resumeContainer">
       <h1 className="resumeText">Download a copy of my CV.</h1>
-      <div className="resumeContainer">
+      <div className="downloadContainer">
         <div className="iconContainer">
           <a className="resumeIcon" href="/resume/Mark_Smellie_CV.pdf" download>
             <i className="far fa-file-pdf"></i>
@@ -13,10 +13,10 @@ const Home = () => {
           <h1 className="downloadText">PDF</h1>
         </div>
         <div className="iconContainer">
-        <a className="resumeIcon" href="/resume/Mark_Smellie_CV.docx" download>
-          <i className="far fa-file-word"></i>
-        </a>
-        <h1 className="downloadText">DOCX</h1>
+          <a className="resumeIcon" href="/resume/Mark_Smellie_CV.docx" download>
+            <i className="far fa-file-word"></i>
+          </a>
+          <h1 className="downloadText">DOCX</h1>
         </div>
       </div>
     </div>

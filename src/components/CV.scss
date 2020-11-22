@@ -5,9 +5,14 @@
 
 .resumeContainer {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.downloadContainer {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 50%;
 }
 
 .iconContainer {
