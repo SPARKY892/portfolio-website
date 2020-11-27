@@ -1,6 +1,7 @@
 import './Modal.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Slideshow from './Slideshow.js';
 
 const Modal = props => {
 
@@ -11,7 +12,9 @@ const Modal = props => {
                     <div className='modalTitle'>{props.title}</div>
                     <i className='fas fa-times modalClose' onClick={props.onClick}></i>
                 </div>
-                <div className='contentImage'>Image to go here</div>
+                <div className='contentImage'>
+                    <Slideshow />
+                </div>
                 <div className='contentDescription'>{props.description}</div>
             </div>   
         </div>
