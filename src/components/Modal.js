@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import Slideshow from './Slideshow.js';
 
 const Modal = props => {
-
     return ReactDOM.createPortal(
         <div className={props.modalShown ? 'modal' : 'modal hidden'} onClick={props.onClick}>
             <div className='modalContent' onClick={(e) => e.stopPropagation()}>
@@ -13,7 +12,8 @@ const Modal = props => {
                     <i className='fas fa-times modalClose' onClick={props.onClick}></i>
                 </div>
                 <div className='contentImage'>
-                    <Slideshow />
+                    <Slideshow images={props.slideshowImages} />
+                    
                 </div>
                 <div className='contentDescription'>{props.description}</div>
             </div>   
