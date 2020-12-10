@@ -3,13 +3,24 @@
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
+  .slideshowContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   
   /* Hide the images by default */
   .mySlides {
     display: none;
+    justify-content: center;
+    object-fit: contain;
+  }
+
+  .slideContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -23,25 +34,30 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-
-  
-  
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    height: 20%;    
+  }
   
   /* Six columns side by side */
   /*TODO: update widths dynamically for number of images: flex? */
   .column {
-    float: left;
-    width: 16.66%;
+    //float: left;
+    max-width: 20%;
+    display: flex;
+    align-content: space-evenly;
   }
   
   /* Add a transparency effect for thumnbail images */
   .demo {
-    opacity: 0.6;
+    opacity: 0.5;
   }
   
   .active,

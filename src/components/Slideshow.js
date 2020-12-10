@@ -2,7 +2,7 @@ import './Slideshow.scss';
 import React, {useEffect, useState} from 'react';
 
 const Slideshow = ({ images }) => {
-    const [slideIndex, setSlideIndex] = useState(1);
+    const [slideIndex, setSlideIndex] = useState(0);
 
     useEffect(() => {
         var i;
@@ -15,7 +15,7 @@ const Slideshow = ({ images }) => {
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex].style.display = "block";
+        slides[slideIndex].style.display = "flex";
         dots[slideIndex].className += " active";
     }, [slideIndex]);
 
@@ -38,7 +38,9 @@ const Slideshow = ({ images }) => {
 
     return (
         <div className="slideshowContainer">
-            {largeImages}
+            <div className="slideContainer">
+                {largeImages}
+            </div>
             <div className="row">
                 {thumbnails}
             </div>
