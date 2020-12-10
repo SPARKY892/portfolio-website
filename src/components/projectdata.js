@@ -61,7 +61,7 @@ export const projects = [
         image: "images/season1.jpg",
         description: "A basic React season checking app that uses the user location to determine what season it is likely to be for the user.",
         githubLink: "https://github.com/SPARKY892/React-VideoStreaming",
-        slideshowImages: ["images/widgets1.jpg", "images/widgets2.jpg", "images/widgets3.jpg", "images/widgets4.jpg", "images/widgets5.jpg"]
+        slideshowImages: ["images/season1.jpg", "images/season2.jpg"]
     },
     {
         title: "Song List",
