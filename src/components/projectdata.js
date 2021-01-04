@@ -69,7 +69,7 @@ export const projects = [
         image: "images/song.jpg",
         description: "A basic React app built to demonstrate actions and reducers. The app allows users to select a song from the list to see additional details about the selected song.",
         githubLink: "https://github.com/SPARKY892/React-VideoStreaming",
-        slideshowImages: ["images/song.jpg"]
+        slideshowImages: ["images/song.jpg", "images/song2.jpg", "images/song3.jpg"]
     }
   ];
   

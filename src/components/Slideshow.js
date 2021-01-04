@@ -22,7 +22,7 @@ const Slideshow = ({ images }) => {
     const largeImages = images.map((image) => {
         return (
             <div className="mySlides">
-                <img src={image} style={{width:'100%'}} />
+                <img className="largeImage" src={image} style={{width:'100%'}} />
             </div>
         );
     });
