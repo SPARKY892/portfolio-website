@@ -43,7 +43,7 @@ export const projects = [
         title: "Widgets",
         overlayText: "A small collection of basic apps including.",
         image: "images/widgets1.jpg",
-        description: "",
+        description: "A collection of widgets offering different functions. \n\nAccordion demonstrates exapndable content sections that will collapse when another section is selected. \n\nThe Search widget makes use of the Wikipedia API to return search results for terms entered by the user. \n\nThe Dropdown widgets demonstrates a drop down menu where the currently selected item is removed from the selections in the dropdown list. \n\nThe Translate widget uses the Google Translate API in order to translate terms entered by the user from English into the language they choose.",
         githubLink: "https://github.com/SPARKY892/React-VideoStreaming",
         slideshowImages: ["images/widgets1.jpg", "images/widgets2.jpg", "images/widgets3.jpg", "images/widgets4.jpg", "images/widgets5.jpg"]
     },
