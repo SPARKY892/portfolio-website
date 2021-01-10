@@ -42,7 +42,7 @@
 .galleryItemHeader {
   display: flex;
   justify-content:center;
-  background-color: #86BBD8;
+  background-color: #d7eae6;
 }
 
 .galleryItemOverlay {
@@ -55,7 +55,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #86BBD8;
+  background-color: #d7eae6;
 }
 
 .galleryItemContent:hover .galleryItemOverlay {

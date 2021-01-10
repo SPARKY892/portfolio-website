@@ -56,7 +56,7 @@ export const projects = [
         slideshowImages: ["images/puttered.jpg"]
     },
     {
-        title: "Basic Season Checker",
+        title: "Season Checker",
         overlayText: "A simple season checking app.",
         image: "images/season1.jpg",
         description: "A basic React season checking app that uses the user location to determine what season it is likely to be for the user.",
