@@ -13,9 +13,13 @@ const Modal = props => {
                 </div>
                 <div className='contentImage'>
                     <Slideshow images={props.slideshowImages} />
-                    
                 </div>
-                <div className='contentDescription'>{props.description}</div>
+                <div className='contentDescription'>
+                    <div>{props.description}</div>
+                    <br />
+                    <a className='projectLink' href={props.githubLink}>Github</a>
+                </div>
+                
             </div>   
         </div>
         , document.querySelector('#modal')
