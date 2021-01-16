@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: #7eb4a9;
+  background-color: #343F3E;
   padding: 0;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .navListWrapper {
-  padding: 0 0 0 auto;
+  padding: 0 0 0 0;
   margin: 0;
   list-style-type: none;
 }
@@ -27,9 +27,9 @@
   padding: 0.75rem 0;
   margin: 0;
   text-decoration: none;
-  color: #000000;
+  color: #fff;
   border: none;
-  background-color: #8fbdb3;
+  background-color: #343F3E;
   opacity: 0.5;
   &:focus {
     outline: none;
@@ -43,17 +43,17 @@
 
 .home:hover ~ hr {
   margin-left: 0%;
-  background: #bcdcd5;
+  background: #8bbbb2;
 }
 
 .gallery:hover ~ hr {
   margin-left: 33%;
-  background: #bcdcd5;
+  background: #8bbbb2;
 }
 
 .cv:hover ~ hr {
   margin-left: 66%;
-  background: #bcdcd5;
+  background: #8bbbb2;
 }
 
 .homeSelect ~ hr {
@@ -72,7 +72,7 @@
   height: 0.25rem;
   width: 33%;
   margin: 0;
-  background: #000;
+  background: #538D81;
   border: none;
   transition: 0.3s ease-in-out;
 }

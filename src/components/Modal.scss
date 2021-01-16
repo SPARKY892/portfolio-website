@@ -17,7 +17,7 @@
     left: 20%;
     width: 60%;
     height: 70%;
-    background-color: #444;
+    background-color: #538D81;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 7% 100%;
@@ -31,7 +31,8 @@
     grid-area: modalHeader;
     display: flex;
     justify-content: space-between;
-    background-color: #eee;
+    color: #fff;
+    background-color: #343F3E;
     width: 100%;
 }
 
@@ -55,16 +56,25 @@
     grid-area: contentImage;
     align-self: center;
     justify-self: center;
-    background-color: #eee;
+    background-color: #343F3E;
     width: 100%;
     height: 100%;
 }
 
 .contentDescription {
     grid-area: contentDescription;
-    background-color: #eee;
+    color: #fff;
+    background-color: #343F3E;
     width: 100%;
     height: 100%;
     white-space: pre-wrap;
     padding-left: 2px;
+}
+
+.projectLink {
+    color: #fff;
+}
+
+a:link:active, a:visited:active {
+    color: #fff;
 }

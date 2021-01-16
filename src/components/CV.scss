@@ -1,12 +1,14 @@
 .resumeText {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
+    color: #fff;
 }
 
 .resumeContainer {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    color: #fff;
 }
 
 .downloadContainer {
@@ -20,12 +22,12 @@
 }
 
 .resumeIcon {
-    color: #23433c;
+    color: #d6d6d6;
     font-size: 150px;
 }
 
 .resumeIcon:hover {
-    color: black;
+    color: #fff;
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }

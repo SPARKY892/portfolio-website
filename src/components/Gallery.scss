@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 
 .galleryGrid {
@@ -28,6 +29,7 @@
   justify-self: center;
   display: flex;
   flex-direction: column;
+  min-height: 250px;
 }
 
 .galleryItemContent {
@@ -42,7 +44,9 @@
 .galleryItemHeader {
   display: flex;
   justify-content:center;
-  background-color: #d7eae6;
+  color: #fff;
+  background-color: #538D81;
+  
 }
 
 .galleryItemOverlay {
@@ -55,7 +59,8 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #d7eae6;
+  color: #fff;
+  background-color: #538D81;
 }
 
 .galleryItemContent:hover .galleryItemOverlay {
