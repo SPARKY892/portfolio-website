@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: "Business Search",
+        overlayText: "A React Native app built to use the yelp search API",
+        image: "images/business1.jpg",
+        description: "A React Native app built to use the yelp search API to return information about local businesses primarily restaurants.",
+        githubLink: "https://github.com/SPARKY892/RN-Restaurant-Search",
+        slideshowImages: ["images/business1.jpg", "images/business2.jpg", "images/business3.jpg"]
+    },
+    {
         title: "Video Streaming",
         overlayText: "A video streaming app in React with Google authentication support.",
         image: "images/stream.jpg",
@@ -54,14 +62,6 @@ export const projects = [
         description: "Puttered is a web based golf game built using the Phaser framework. The game was developed as part of a mobile web development module at university. The game features multiple levels with online leaderboards to record high scores between users.",
         githubLink: "https://puttered.redbarongames.co.uk/",
         slideshowImages: ["images/puttered.jpg", "images/puttered2.jpg", "images/puttered3.jpg", "images/puttered4.jpg"]
-    },
-    {
-        title: "Season Checker",
-        overlayText: "A simple season checking app.",
-        image: "images/season1.jpg",
-        description: "A basic React season checking app that uses the user location to determine what season it is likely to be for the user.",
-        githubLink: "https://github.com/SPARKY892/React-Basic-Weather",
-        slideshowImages: ["images/season1.jpg", "images/season2.jpg"]
     },
     {
         title: "Song List",
