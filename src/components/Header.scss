@@ -1,78 +1,77 @@
 .header {
-  width: 100%;
-  background-color: #343F3E;
-  padding: 0;
+	width: 100%;
+	background-color: #343f3e;
+	padding: 0;
 }
 
 .navButtons {
-  margin: 0 auto;
-  width: 75%;
+	margin: 0 auto;
+	width: 75%;
 }
 
 .navListWrapper {
-  padding: 0 0 0 0;
-  margin: 0;
-  list-style-type: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	list-style-type: none;
 }
 
 .navList {
-  display: inline;
-  text-align: center;
+	display: inline;
+	text-align: center;
 }
 
-
 .item {
-  display: inline-block;
-  width: 33%;
-  padding: 0.75rem 0;
-  margin: 0;
-  text-decoration: none;
-  color: #fff;
-  border: none;
-  background-color: #343F3E;
-  opacity: 0.5;
-  &:focus {
-    outline: none;
-    opacity: 1;
-  } 
+	display: inline-block;
+	width: 33%;
+	padding: 0.75rem 0;
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	background-color: #343f3e;
+	opacity: 0.5;
+	&:focus {
+		outline: none;
+		opacity: 1;
+	}
 }
 
 .item:hover {
-  opacity: 1;
+	opacity: 1;
 }
 
 .home:hover ~ hr {
-  margin-left: 0%;
-  background: #8bbbb2;
+	margin-left: 0%;
+	background: #8bbbb2;
 }
 
-.gallery:hover ~ hr {
-  margin-left: 33%;
-  background: #8bbbb2;
+.projects:hover ~ hr {
+	margin-left: 33%;
+	background: #8bbbb2;
 }
 
 .cv:hover ~ hr {
-  margin-left: 66%;
-  background: #8bbbb2;
+	margin-left: 66%;
+	background: #8bbbb2;
 }
 
 .homeSelect ~ hr {
-  margin-left: 0%;
+	margin-left: 0%;
 }
 
-.gallerySelect ~ hr {
-  margin-left: 33%;
+.projectsSelect ~ hr {
+	margin-left: 33%;
 }
 
 .cvSelect ~ hr {
-  margin-left: 66%;
+	margin-left: 66%;
 }
 
 .slidingHR {
-  height: 0.25rem;
-  width: 33%;
-  margin: 0;
-  background: #538D81;
-  border: none;
-  transition: 0.3s ease-in-out;
+	height: 0.25rem;
+	width: 33%;
+	margin: 0;
+	background: #538d81;
+	border: none;
+	transition: 0.3s ease-in-out;
 }
